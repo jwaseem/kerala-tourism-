@@ -1,0 +1,165 @@
+.button {
+    background-color: #0a770c; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+ .green{
+   background-color:#0a770c;
+ }
+ .white{
+   color: white;
+ }
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  
+  color: white;
+} 
+.fa-instagram {
+  
+  color: white;
+} 
+.fa-youtube {
+  
+  color: white;
+} 
+.greengd{
+  background-image: linear-gradient(rgb(37, 78, 37),#297c29);
+}
+.box{
+    width: 400px;
+    border: 4px solid green;
+    align : center;
+    padding: 40px;
+    margin: 20px;
+    margin-top: 100px;
+    margin-left: 35%;
+    
+  }
+ .login_button{
+  
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+   
+ }
+ .container1 {
+  padding: 10px;
+  /* border: 1px solid #0a770c; */
+
+}
+
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  .signup-form
+  {
+    color: #999;
+    width: 400px;
+    margin: 0px auto;
+    padding-top: 70px;
+    padding-bottom: 30px;
+  }
+  .form-group{
+    padding-top: 15px;
+  }
+/* .black{
+
+  color: black;
+  text-decoration: none;
+} */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+.featurette-divider {
+  margin: 5rem 0;
+  /* Space out the Bootstrap <hr> more */
+}
+
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+/* district */
+.district {
+  margin: 0px auto;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.dist-text{
+  padding-left: 110px;
+  padding-right: 110px;
+  color: white;
+  
+}
+.resimg{
+  width: 100%;
+  height: 32rem;
+}
+.distext2 {
+  font-family: 'Oswald', sans-serif;
+  position: absolute;
+  font-size: 7vw;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 2px 3px white, 0 0 5px white;
+}
+.padding{
+  padding-top: 60px;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+.separation{
+  width: 100%;
+  height: 20px;
+  background-color:darkcyan ;
+ 
+}
