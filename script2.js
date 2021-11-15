@@ -151,3 +151,17 @@ function dovalidate(){
             password_strength.innerHTML = strength;
             password_strength.style.color = color;
         }
+function logval(){
+    let logemail = document.getElementById("logemail");
+    let logerror = document.getElementById("logerror");
+    if((regexp.test(logemail.value))
+    {
+        alert("ok")
+        return true;
+    }
+    else{
+        logerror.innerHTML = " Please enter a valid email address";
+
+    }
+
+}
