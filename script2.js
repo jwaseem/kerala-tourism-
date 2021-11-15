@@ -157,11 +157,12 @@ function logval(){
     let logerror = document.getElementById("logerror");
     if((regexp.test(logemail.value))
     {
-        alert("ok")
+        
         return true;
     }
     else{
         logerror.innerHTML = " Please enter a valid email address";
+        return false;
 
     }
 
