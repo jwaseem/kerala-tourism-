@@ -39,10 +39,12 @@
       </nav> 
     </div> 
     <!-- navbar ends -->
-
-    <section class="signup1 blink-bg">
+    <!-- eghj
+    kkkk
+    hhjjjkk -->
+    <section class="signup1 ">
       <div class="signup-form">
-        <form action="../index.html" onsubmit="return validate();">
+        <form action="index.html" onsubmit="return validate()">
           <h2><b> SignUp</b></h2>
           <p>Please fill in this form to create an account!</p>
           <hr>
@@ -55,21 +57,26 @@
             </div>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control"  placeholder="Email" required="required" id="email">
-            <!-- <span id="error" class="error"></span> -->
+            <input type="text" class="form-control"  placeholder="Email" required="required" id="email">
+            <!-- <label for="error" id="error"></label> -->
+            <p id="error"></p>
+            
           </div>
           <div class="form-group">
-            <input type="tel" class="form-control"  placeholder="Phone Number" required="required" id="phone">
-            <!-- <span id="error2" class="error"></span> -->
+            <input type="text" class="form-control"  placeholder="Phone Number" required="required" id="phone">
+            <!-- <label for="error2" id="error2" ></label> -->
+            <p id="error2" ></p>
           </div>
           <div class="form-group">
             <span id="password_strength"></span>
             <input type="password" class="form-control"  placeholder="Password" required="required" id="pwd" onkeyup="CheckPasswordStrength(this.value)">
-            <!-- <span id="error3" class="error"></span> -->
+            <!-- <label for="error3" id="error3" ></label> -->
+            <p id="error3"></p>
           </div>
           <div class="form-group">
             <input type="password" class="form-control" placeholder="Confirm Password" required="required" id="pwd1">
-            <span id="error4" class="error"></span>
+            <!-- <label for="error4" id="error4" ></label> -->
+            <p id="error4"></p>
           </div>
           <div class="form-group">
             <label class="form-check-label"><input type="checkbox" required="required"> I accept the <a href="#">Terms of
@@ -78,7 +85,6 @@
           <div class="form-group">
             <button type="submit" class="btn btn-success btn-lg" >Sign Up</button>
           </div>
-          <!-- <div><label for="error" id="error" class="error"></label></div> -->
         </form>
         <div class="black">Already have an account? <a href="" data-toggle="modal" data-target="#loginModal"><u>Login
             here</u></a></div>
@@ -89,6 +95,7 @@
       <a href="www.google.com" > www.google.com</a>
     </div>
   <!-- Copyright -->
+  <script src="./script2.js"></script>
 </body>
 </html>
 
