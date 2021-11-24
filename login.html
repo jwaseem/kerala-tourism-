@@ -42,6 +42,7 @@
       <div class="box" style="background-image:url(./images/pic1.jpg)"> 
          <form  class="modal-content animate" onsubmit="">
             <div class="container1 ">
+              <form action="#" onsubmit="return validate2();">
              <table > 
                <tr class="form-group">
                   <td>
@@ -50,7 +51,7 @@
                      <br>
                   </td>
                   <td>
-                     <input type="text" placeholder="Email" name="uname" required id="logemail">
+                     <input type="email" placeholder="Email" name="uname" required id="logemail">
                      <p id="logerror"></p>
                      <br/>  
                   </td>
@@ -65,6 +66,7 @@
                   </td>
                </tr>
             </table>
+            </form>
                <button type="submit" class="login_button">Login</button><br>
                <input type="checkbox" checked="checked"> Remember me
                <br/>
